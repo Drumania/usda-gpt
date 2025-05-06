@@ -10,7 +10,7 @@ exports.handler = async (event) => {
     };
   }
 
-  const apiKey = "TU_AP_KEY";
+  const apiKey = "upjP0OwC27rKuRWHgI5PyqkdQSHTrIvYpmNuPHxL";
   const url = `https://api.nal.usda.gov/fdc/v1/foods/search?query=${encodeURIComponent(
     query
   )}&api_key=${apiKey}`;
